@@ -20,6 +20,12 @@ const bool enableValidationLayers = false;
 const bool enableValidationLayers = true;
 #endif
 
+VkResult CreateDebugUtilsMessengerExt(VkInstance instance,const VkDebugUtilsMessengerCreateInfoEXT* pCreateInfo,const VkAllocationCallbacks* pAllocator,VkDebugUtilsMessengerEXT* pDebugMessenger)
+{
+    auto func = (PFN_vkCreateDebugUtilsMessengerEXT)vkGetInstanceProcAddr(instance,"vkCreateDebugUtilsMessengerEXT");
+}
+
+
 class Entrance{
 public:
     static void init()
@@ -117,7 +123,7 @@ private:
         }
     }
 
-    vector<const char*>getRequiredExtensions()
+    vector<const char*> getRequiredExtensions()
     {
         uint32_t glfwExtensionCount = 0;
         const char** glfwExtensions;
@@ -130,13 +136,23 @@ private:
         return extensions;
 
     }
-
+    
+    static VKAPI_ATTR VkBool32 VKAPI_CALL debugCallback(VkDebugUtilsMessageSeverityFlagBitsEXT messageSeverity,
+                                                        VkDebugUtilsMessageTypeFlagsEXT messageType,
+                                                        const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData,
+                                                        void* pUserData)
+    {
+        cerr<<"Validation_layer:"<<pCallbackData->pMessage<<endl;
+        return VK_FALSE;
+    }
 
     static VkInstance instance;
     static GLFWwindow* window;
 };
 VkInstance Entrance::instance;
 GLFWwindow* Entrance::window;
+
+
 int main(){
     
     Entrance::init();
