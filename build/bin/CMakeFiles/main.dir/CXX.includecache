@@ -1123,6 +1123,12 @@ cstring
 -
 iostream
 -
+string
+-
+optional
+-
 vector
+-
+set
 -
 
