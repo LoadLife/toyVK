@@ -1,11 +1,11 @@
 #define GLFW_INCLUDE_VULKAN
-#define GLM_FORCE_RADIANS
-#define GLM_FORCE_DEPTH_ZERO_TO_ONE
+//#define GLM_FORCE_RADIANS
+//#define GLM_FORCE_DEPTH_ZERO_TO_ONE
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 #include <cstring>
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <optional>
 #include <vector>
 #include <set>
@@ -15,7 +15,7 @@
 using namespace std;
 
 const vector<const char*> validationLayers = {
-    "VK_LAYER_LUNARG_standard_validation"
+    "VK_LAYER_KHRONOS_validation"
 };
 
 const vector<const char*> deviceExtensions ={
@@ -72,15 +72,17 @@ public:
         }
         glfwWindowHint(GLFW_CLIENT_API,GLFW_NO_API);
         glfwWindowHint(GLFW_RESIZABLE,GLFW_FALSE);
-
         window = glfwCreateWindow(WINDOW_WIDTH,WINDOW_HEIGHT,"April",nullptr,nullptr);
         if(window==nullptr){
            cerr<<"Failed to create window"<<endl; 
            exit(EXIT_FAILURE);
         }
+
         createInstance();
         setupDebugMessenger();
-        pickPhysicalDevice();                
+        createSurface();
+        pickPhysicalDevice();
+        createLogicalDevice();                
     }
 
     static void render()

@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/DELL/Desktop/Vulkan_try/build"
+			"value" : "c:/Users/jerry/Desktop/Vulkan_try/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "0"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/DELL/Desktop/Vulkan_try"
+			"value" : "C:/Users/jerry/Desktop/Vulkan_try"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1283,7 +1283,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Desktop/Vulkan_try/build"
+			"value" : "C:/Users/jerry/Desktop/Vulkan_try/build"
 		},
 		{
 			"name" : "VK_TRY_SOURCE_DIR",
@@ -1295,7 +1295,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Desktop/Vulkan_try"
+			"value" : "C:/Users/jerry/Desktop/Vulkan_try"
 		}
 	],
 	"kind" : "cache",

@@ -1,5 +1,5 @@
-C:/Users/DELL/Desktop/Vulkan_try/build/CMakeFiles/edit_cache.dir
-C:/Users/DELL/Desktop/Vulkan_try/build/CMakeFiles/rebuild_cache.dir
-C:/Users/DELL/Desktop/Vulkan_try/build/bin/CMakeFiles/edit_cache.dir
-C:/Users/DELL/Desktop/Vulkan_try/build/bin/CMakeFiles/main.dir
-C:/Users/DELL/Desktop/Vulkan_try/build/bin/CMakeFiles/rebuild_cache.dir
+C:/Users/jerry/Desktop/Vulkan_try/build/CMakeFiles/edit_cache.dir
+C:/Users/jerry/Desktop/Vulkan_try/build/CMakeFiles/rebuild_cache.dir
+C:/Users/jerry/Desktop/Vulkan_try/build/bin/CMakeFiles/edit_cache.dir
+C:/Users/jerry/Desktop/Vulkan_try/build/bin/CMakeFiles/main.dir
+C:/Users/jerry/Desktop/Vulkan_try/build/bin/CMakeFiles/rebuild_cache.dir
