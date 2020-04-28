@@ -1114,7 +1114,7 @@ vk_platform.h
 
 ../third_part/include/vulkan/vulkan_xlib_xrandr.h
 
-C:/Users/jerry/Desktop/Vulkan_try/src/main.cpp
+C:/Users/DELL/Desktop/Vulkan_try/src/main.cpp
 GLFW/glfw3.h
 -
 glm/glm.hpp
@@ -1123,6 +1123,8 @@ cstring
 -
 iostream
 -
+fstream
+-
 cstring
 -
 optional
@@ -1130,5 +1132,7 @@ optional
 vector
 -
 set
+-
+algorithm
 -
 
