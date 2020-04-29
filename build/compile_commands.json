@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/jerry/Desktop/Vulkan_try/build/bin",
-  "command": "C:\\Qt\\Qt5.14.1\\Tools\\mingw730_64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -O3 -DNDEBUG   -std=gnu++1z -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\jerry\\Desktop\\Vulkan_try\\src\\main.cpp",
-  "file": "C:/Users/jerry/Desktop/Vulkan_try/src/main.cpp"
+  "directory": "C:/Users/DELL/Desktop/Vulkan_try/build/bin",
+  "command": "C:\\Qt\\Qt5.14.1\\Tools\\mingw730_64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -std=gnu++1z -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\DELL\\Desktop\\Vulkan_try\\src\\main.cpp",
+  "file": "C:/Users/DELL/Desktop/Vulkan_try/src/main.cpp"
 }
 ]
