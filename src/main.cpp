@@ -799,6 +799,7 @@ private:
             return actualExtent;
         }
     }
+
     static void createSwapChain()
     {
          SwapChainSupportDetails swapChainSupport = querySwapChainSupport(physicalDevice);
@@ -930,6 +931,7 @@ private:
             exit(EXIT_FAILURE);
         }
     }
+    
     static vector<const char*> getRequiredExtensions()
     {
         uint32_t glfwExtensionCount = 0;
